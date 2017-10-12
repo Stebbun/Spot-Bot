@@ -25,6 +25,7 @@ import discordbot.tokens.Tokens;
 public class SpotifyBot {
 
     private Api spotAPI;
+    private String accessToken;
     private String clientID = Tokens.getSpotifyClientID();
     private String clientSecret = Tokens.getSpotifyClientSecret();
     private String redirectURI = Tokens.getSpotifyRedirectURI();
@@ -75,12 +76,13 @@ public class SpotifyBot {
         Futures.addCallback(responseFuture, new FutureCallback<ClientCredentials>() {
             @Override
             public void onSuccess(ClientCredentials clientCredentials) {
+                accessToken = clientCredentials.getAccessToken();
                 /* The tokens were retrieved successfully! */
-                System.out.println("Successfully retrieved an access token! " + clientCredentials.getAccessToken());
+                System.out.println("Successfully retrieved an access token! " + accessToken);
                 System.out.println("The access token expires in " + clientCredentials.getExpiresIn() + " seconds");
 
                 /* Set access token on the Api object so that it's used going forward */
-                api.setAccessToken(clientCredentials.getAccessToken());
+                api.setAccessToken(accessToken);
             }
 
             @Override
@@ -88,6 +90,14 @@ public class SpotifyBot {
 
             }
         });
+    }
+
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public void setAccessToken(String accessToken) {
+        this.accessToken = accessToken;
     }
 
     public Api getSpotAPI(){
