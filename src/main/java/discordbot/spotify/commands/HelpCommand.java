@@ -19,7 +19,7 @@ public class HelpCommand implements CommandExecutor{
         StringBuilder builder = new StringBuilder();
 
         //xml code block format
-        builder.append("'''xml");
+        builder.append("```xml");
 
         for (CommandHandler.SimpleCommand simpleCommand : commandHandler.getCommands()) {
             if (!simpleCommand.getCommandAnnotation().showInHelpPage()) {
@@ -41,7 +41,7 @@ public class HelpCommand implements CommandExecutor{
             }
         }
 
-        builder.append("\n'''");    //end of code block format
+        builder.append("\n```");    //end of code block format
         return builder.toString();
     }
 }

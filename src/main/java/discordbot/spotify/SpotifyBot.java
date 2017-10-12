@@ -4,6 +4,10 @@ import de.btobastian.javacord.DiscordAPI;
 import de.btobastian.javacord.Javacord;
 import de.btobastian.javacord.entities.message.Message;
 import de.btobastian.javacord.listener.message.MessageCreateListener;
+import de.btobastian.sdcf4j.CommandHandler;
+import de.btobastian.sdcf4j.handler.JavacordHandler;
+import discordbot.spotify.commands.HelpCommand;
+import discordbot.spotify.commands.InfoCommand;
 import discordbot.spotify.listener.SpotifyMessageListener;
 
 
@@ -17,8 +21,15 @@ public class SpotifyBot {
         //connect
         api.connect(new FutureCallback<DiscordAPI>() {
             public void onSuccess(DiscordAPI discordAPI) {
+                //register message listener
                 SpotifyMessageListener spotListener = new SpotifyMessageListener();
                 api.registerListener(spotListener);
+
+                //Initialize command handler and register commands
+                CommandHandler cmdHandler = new JavacordHandler(api);
+                HelpCommand helpCmd = new HelpCommand(cmdHandler);
+                cmdHandler.registerCommand(helpCmd);
+                cmdHandler.registerCommand(new InfoCommand());
             }
 
             public void onFailure(Throwable throwable) {
