@@ -8,6 +8,7 @@ import de.btobastian.sdcf4j.CommandHandler;
 import de.btobastian.sdcf4j.handler.JavacordHandler;
 import discordbot.spotify.commands.HelpCommand;
 import discordbot.spotify.commands.InfoCommand;
+import discordbot.spotify.commands.NewReleasesCommand;
 import discordbot.spotify.listener.SpotifyMessageListener;
 
 
@@ -30,6 +31,7 @@ public class SpotifyBot {
                 HelpCommand helpCmd = new HelpCommand(cmdHandler);
                 cmdHandler.registerCommand(helpCmd);
                 cmdHandler.registerCommand(new InfoCommand());
+                cmdHandler.registerCommand(new NewReleasesCommand());
             }
 
             public void onFailure(Throwable throwable) {
