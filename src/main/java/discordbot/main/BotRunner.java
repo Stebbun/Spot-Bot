@@ -9,8 +9,9 @@ import discordbot.tokens.Tokens;
 public class BotRunner {
 
     public static final String SPOTIFY_BOT_TOKEN = Tokens.getSpotBotToken();
+    public static SpotifyBot spotBot;
 
     public static void main(String[] args){
-        SpotifyBot spotBot = new SpotifyBot(SPOTIFY_BOT_TOKEN, true);
+        spotBot = new SpotifyBot(SPOTIFY_BOT_TOKEN, true);
     }
 }
