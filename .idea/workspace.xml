@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="edf3c327-3a84-4989-9f76-9c94ec73dc04" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java" afterPath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java" afterPath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java" afterPath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java" />
     </list>
     <list id="5b7e28cc-fd8d-4597-b73c-49a2b4b64471" name="private" comment="For private things not on Github">
@@ -31,8 +33,8 @@
       <file leaf-file-name="HelpCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="625">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
@@ -42,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewReleasesCommand.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewReleasesCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="447">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoCommand.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InfoCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="341">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,12 +186,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/listener/SpotifyMessageListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/discordbot/tokens/Tokens.java" />
         <option value="$PROJECT_DIR$/src/main/java/discordbot/main/BotRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/SpotifyBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java" />
       </list>
     </option>
@@ -244,6 +246,50 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Spotify Discord Bot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: se.michaelthelin.spotify:spotify-web-api-java:1.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spotify-web-api-java-1.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spotify Discord Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: se.michaelthelin.spotify:spotify-web-api-java:1.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spotify-web-api-java-1.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spotify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spotify Discord Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -771,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507800202386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Formatting for NewReleasesCommand">
+      <created>1507800464310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507800464310</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -790,7 +843,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19738752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2264151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -824,7 +877,8 @@
     <MESSAGE value="Setup Spotify API and initialized clientID, clientSecret, and redirectURI. Created Tokens class to store tokens (Not available for public viewing)." />
     <MESSAGE value="Setup access token" />
     <MESSAGE value="Completed NewReleasesCommand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed NewReleasesCommand" />
+    <MESSAGE value="Formatting for NewReleasesCommand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting for NewReleasesCommand" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -887,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/main/BotRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -936,10 +980,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar!/com/wrapper/spotify/UtilProtos.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/HelpCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="625">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
@@ -950,8 +1002,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="447">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/InfoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

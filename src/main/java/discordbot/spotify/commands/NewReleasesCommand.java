@@ -19,14 +19,14 @@ import discordbot.main.BotRunner;
  */
 public class NewReleasesCommand implements CommandExecutor {
 
-    @Command(aliases = {"!s.releases"}, description = "Displays new music releases from Spotify.", usage = "!s.releases")
+    @Command(aliases = {"spot.releases"}, description = "Displays new music releases from Spotify.", usage = "spot.releases")
     public String onNewReleasesCommand(){
         String ret = "";
         String accessToken = BotRunner.spotBot.getAccessToken();
         Api api = Api.builder().accessToken(accessToken).build();
 
         final NewReleasesRequest request = api.getNewReleases()
-                .limit(10)
+                .limit(15)
                 .offset(0)
                 .country("US")
                 .build();

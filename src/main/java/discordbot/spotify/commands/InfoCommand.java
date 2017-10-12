@@ -11,8 +11,8 @@ import java.util.Date;
  */
 public class InfoCommand implements CommandExecutor {
 
-    @Command(aliases = {"!s.info", "!info"}, description = "Displays requested information.",
-            usage = "!s.info [bot|author|time]")
+    @Command(aliases = {"spot.info", "!info"}, description = "Displays requested information.",
+            usage = "spot.info [bot|author|time]")
     public String onInfoCommand(String[] args){
         //need to specify a tag
         if (args.length > 1 || args.length == 0) {

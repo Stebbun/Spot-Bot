@@ -14,7 +14,7 @@ public class HelpCommand implements CommandExecutor{
         this.commandHandler = commandHandler;
     }
 
-    @Command(aliases = {"!s.help", "!help"}, description = "Shows a list of available commands for Spot Bot")
+    @Command(aliases = {"spot.help", "!help"}, description = "Shows a list of available commands for Spot Bot")
     public String onHelpCommand(){
         StringBuilder builder = new StringBuilder();
 
