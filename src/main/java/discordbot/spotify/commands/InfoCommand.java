@@ -20,19 +20,19 @@ public class InfoCommand implements CommandExecutor {
         }
         else if(args.length == 1){
             if(args[0].equals("bot")){
-                return "- **Author:** <YourName>\n" +
+                return "- **Author:** Stebbun\n" +
                         "- **Language:** Java\n" +
                         "- **Command-Lib:** sdcf4j";
             }
             else if(args[0].equals("author")){
-                return "- **Name:** <YourName>\n" +
-                        "- **Age:** <YourAge>\n" +
-                        "- **Website:** <YourWebsite>";
+                return "- **Name:** Stebbun\n" +
+                        "- **Age:** 20\n" +
+                        "- **Website:** ";
             }
             else if(args[0].equals("time")){
                 SimpleDateFormat format = new SimpleDateFormat("HH:mm");
                 Date currentDate = new Date(System.currentTimeMillis());
-                return "It's" + format.format(currentDate);
+                return "It's " + format.format(currentDate);
             }
         }
         return "Invalid Arguments.";

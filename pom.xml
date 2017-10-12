@@ -60,6 +60,11 @@
             <artifactId>sdcf4j-javacord</artifactId>
             <version>1.0.5</version>
         </dependency>
+        <dependency>
+            <groupId>se.michaelthelin.spotify</groupId>
+            <artifactId>spotify-web-api-java</artifactId>
+            <version>1.5.0</version>
+        </dependency>
     </dependencies>
 
 </project>

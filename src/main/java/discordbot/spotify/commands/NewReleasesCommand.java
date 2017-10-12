@@ -8,9 +8,8 @@ import de.btobastian.sdcf4j.CommandExecutor;
  */
 public class NewReleasesCommand implements CommandExecutor {
 
-    @Command(aliases = {"!s.releases"}, description = "Displays new music releases on Spotify.", usage = "!s.releases")
+    @Command(aliases = {"!s.releases"}, description = "Displays new music releases from Spotify.", usage = "!s.releases")
     public String onNewReleasesCommand(){
-
 
         return "";
     }
