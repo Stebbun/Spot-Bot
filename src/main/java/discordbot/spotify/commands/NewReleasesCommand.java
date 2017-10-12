@@ -39,9 +39,10 @@ public class NewReleasesCommand implements CommandExecutor {
 
             //xml code block format
             builder.append("```xml");
+            builder.append("\nNew Releases:\n");
 
             for(SimpleAlbum e : albums.getItems()){
-                builder.append(e.getName());
+                builder.append("\t" + e.getName());
                 builder.append("\n");
             }
 

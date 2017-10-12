@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edf3c327-3a84-4989-9f76-9c94ec73dc04" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/discordbot/spotify/SpotifyBot.java" afterPath="$PROJECT_DIR$/src/main/java/discordbot/spotify/SpotifyBot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java" afterPath="$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java" />
     </list>
     <list id="5b7e28cc-fd8d-4597-b73c-49a2b4b64471" name="private" comment="For private things not on Github">
@@ -46,8 +45,8 @@
       <file leaf-file-name="NewReleasesCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="443">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -765,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507797528951</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed NewReleasesCommand">
+      <created>1507800202386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507800202386</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -817,7 +823,8 @@
     <MESSAGE value="Set up skeleton method for onNewReleasesCommand." />
     <MESSAGE value="Setup Spotify API and initialized clientID, clientSecret, and redirectURI. Created Tokens class to store tokens (Not available for public viewing)." />
     <MESSAGE value="Setup access token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup access token" />
+    <MESSAGE value="Completed NewReleasesCommand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed NewReleasesCommand" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -943,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/discordbot/spotify/commands/NewReleasesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="443">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
