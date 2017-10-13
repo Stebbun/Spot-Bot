@@ -57,7 +57,7 @@ public class SpotifyBot {
             }
 
             public void onFailure(Throwable throwable) {
-
+                System.out.println("ERROR: Discord api failed to connect.");
             }
         });
     }
@@ -89,7 +89,7 @@ public class SpotifyBot {
 
             @Override
             public void onFailure(Throwable throwable) {
-
+                System.out.println("ERROR: Failed to retrieve an access token from Spotify API.");
             }
         });
     }
