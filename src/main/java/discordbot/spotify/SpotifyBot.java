@@ -17,6 +17,7 @@ import discordbot.spotify.commands.InfoCommand;
 import discordbot.spotify.commands.NewReleasesCommand;
 import discordbot.spotify.listener.SpotifyMessageListener;
 import discordbot.tokens.Tokens;
+import discordbot.util.TokenTimer;
 
 
 /**
@@ -50,8 +51,9 @@ public class SpotifyBot {
                 //setup spotify web api
                 setupSpotAPI();
 
-                //setup access token
-                setupAccessToken();
+                //setup access token every 3000 seconds
+                TokenTimer tokenTimer = new TokenTimer(3000);
+                tokenTimer.startTokenTimer();
             }
 
             public void onFailure(Throwable throwable) {
@@ -64,7 +66,7 @@ public class SpotifyBot {
         this.spotAPI = Api.builder().clientId(clientID).clientSecret(clientSecret).redirectURI(redirectURI).build();
     }
 
-    private void setupAccessToken(){
+    public void setupAccessToken(){
         final Api api = this.getSpotAPI();
         //create a request object
         final ClientCredentialsGrantRequest request = api.clientCredentialsGrant().build();
