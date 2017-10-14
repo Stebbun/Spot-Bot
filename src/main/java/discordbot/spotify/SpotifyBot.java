@@ -12,6 +12,7 @@ import de.btobastian.javacord.listener.message.MessageCreateListener;
 import de.btobastian.sdcf4j.CommandHandler;
 import de.btobastian.sdcf4j.handler.JavacordHandler;
 import discordbot.main.BotRunner;
+import discordbot.spotify.commands.FeaturedPlaylistsCommand;
 import discordbot.spotify.commands.HelpCommand;
 import discordbot.spotify.commands.InfoCommand;
 import discordbot.spotify.commands.NewReleasesCommand;
@@ -47,6 +48,7 @@ public class SpotifyBot {
                 cmdHandler.registerCommand(helpCmd);
                 cmdHandler.registerCommand(new InfoCommand());
                 cmdHandler.registerCommand(new NewReleasesCommand());
+                cmdHandler.registerCommand(new FeaturedPlaylistsCommand());
 
                 //setup spotify web api
                 setupSpotAPI();

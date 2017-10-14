@@ -21,7 +21,6 @@ public class NewReleasesCommand implements CommandExecutor {
 
     @Command(aliases = {"spot.releases"}, description = "Displays new music releases from Spotify.", usage = "spot.releases")
     public String onNewReleasesCommand(){
-        String ret = "";
         String accessToken = BotRunner.spotBot.getAccessToken();
         Api api = Api.builder().accessToken(accessToken).build();
 
