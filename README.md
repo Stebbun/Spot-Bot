@@ -1,4 +1,7 @@
-![alt text](https://user-images.githubusercontent.com/18038318/32081399-2c9c8c6a-ba83-11e7-91f2-477ba57de7d2.png)
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/18038318/32081399-2c9c8c6a-ba83-11e7-91f2-477ba57de7d2.png">
+</p>
+
 # Spot-Bot
 Discord bot application that makes use of Spotify's Web API to fetch music data and manage user's playlists. 
 
