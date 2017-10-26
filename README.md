@@ -15,5 +15,7 @@ Example of using the spot.feat command:
 
 # Libraries and APIs
 [Javacord](https://github.com/BtoBastian/Javacord) - Multi-threaded library used to create a Discord bot.
+
 [spotify-web-api-java](https://github.com/thelinmichael/spotify-web-api-java) - Java wrapper/client for the Spotify Web API.
+
 [sdcf4j](https://github.com/BtoBastian/sdcf4j) - Discord command framework 
