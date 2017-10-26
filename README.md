@@ -13,6 +13,9 @@ Use the spot.help command to get a list of commands to access the Spotify API.
 Example of using the spot.feat command:
 ![alt text](https://user-images.githubusercontent.com/18038318/32081158-b1780da8-ba81-11e7-89a6-b317d77bd4dc.PNG)
 
+# Adding Bot to Discord Server
+[Add Bot to Server](https://discordapp.com/oauth2/authorize?client_id=367770877791830037&scope=bot&permissions=0)
+
 # Libraries and APIs
 [Javacord](https://github.com/BtoBastian/Javacord) - Multi-threaded library used to create a Discord bot.
 
