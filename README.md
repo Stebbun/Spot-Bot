@@ -15,6 +15,7 @@ Example of using the spot.feat command:
 
 # Adding Bot to Discord Server
 [Add Bot to Server](https://discordapp.com/oauth2/authorize?client_id=367770877791830037&scope=bot&permissions=0)
+![alt text](https://user-images.githubusercontent.com/18038318/32082205-0c1e9230-ba88-11e7-8da5-717f54cd2323.png)
 
 # Libraries and APIs
 [Javacord](https://github.com/BtoBastian/Javacord) - Multi-threaded library used to create a Discord bot.
